@@ -1,0 +1,62 @@
+section.form {
+    padding: 80px 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* h2, .form-title{
+    text-align: center;
+    border: #fff solid;
+} 
+
+h3, .form-subtitle{
+    text-align: center;
+    border: #fff solid;
+}  */
+
+#form-title, #form-subtitle {
+    text-align: center;
+} 
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    /* background-color: #313030ee; */
+    background-color:#08f39f;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder{
+    color: #050537;
+}
+
+form textarea {
+    resize: none;
+    max-height: 150px;
+}
+
+form textarea::placeholder{
+    color: #050537;
+}
+
+
+
+

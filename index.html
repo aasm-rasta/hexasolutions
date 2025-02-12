@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+    <link rel="stylesheet" href="src/styles/form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Hexa Soluções</title>
+</head>
+<body>
+    <header>
+      <nav id="navbar">
+        <a href="#">
+            <img id="nav_logo" src="src/images/logohexa.png" alt="">
+        </a>
+
+        <ul id="nav_list" >
+            <li class="nav-item active">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">O que ofereçemos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#testimonials">Sobre nós</a>
+            </li> 
+
+            <li class="nav-item">
+                <a href="#form">Orçamentos</a>
+            </li>
+        </ul>
+
+        <button class="btn-default">
+            Entre em contato
+        </button>
+
+        <button id="mobile_btn">
+            <i class = "fa-solid fa-bars"></i>
+        </button><!--mobileBtn-->
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+            <li class="nav-item">
+                <a href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">O que ofereçemos</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#testimonials">Sobre nós</a>
+            </li> 
+
+            <li class="nav-item">
+                <a href="#testimonials">Orçamentos</a>
+            </li>
+        </ul>
+        
+        <button class="btn-default">
+            Entre em contato
+        </button>
+
+      </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    SOLUÇÕES EM
+                    <span>DIVERSAS ÁREAS</span>
+                </h1>
+                <p class="description">
+                    Protegemos o presente e preparamos o futuro da sua empresa ou residência com soluções completas em tecnologia, tudo integrado para sua tranquilidade e alta performance.
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">Vamos conversar</a>
+                    <a href="tel:+555555555" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 5 5555.5555
+                    </a>
+                </div><!--cta_buttons--> 
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div><!--social-media-buttons-->
+            </div><!--cta-->
+            <div id="banner">
+                <img src="src/images/hero.png" alt="">
+            </div><!--banner-->
+
+        </section> <!--home-->
+
+        <section id="menu">
+            <h2 class="section-title">O que ofereçemos</h2>
+            <h3 class="section-subtitle">Soluções que vão desde informática ate segurança eletronica </h3>
+
+            <div id="dishes">
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-burst"></i>
+                    </div><!--dish-heart-->
+
+                    <img src="src/images/serv.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Video monitoramento
+                    </h3><!--dish-title-->
+
+                    <span class="dish-description">
+                        oluptatum commodi deleniti, provident a necessitatibus, sit quae aut nihil qui vel architecto rem exercitationem quas, iusto fugiat pariatur placeat animi molestiae!
+                    </span><!--dish-description-->
+
+                    <div class="dish-price">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div><!--dish-price-->
+                </div><!--dish01-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-burst"></i>
+                    </div><!--dish-heart-->
+
+                    <img src="src/images/serv.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Video monitoramento
+                    </h3><!--dish-title-->
+
+                    <span class="dish-description">
+                        oluptatum commodi deleniti, provident a necessitatibus, sit quae aut nihil qui vel architecto rem exercitationem quas, iusto fugiat pariatur placeat animi molestiae!
+                    </span><!--dish-description-->
+
+                    <div class="dish-price">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div><!--dish-price-->
+                </div><!--dish02-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-burst"></i>
+                    </div><!--dish-heart-->
+
+                    <img src="src/images/serv.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Video monitoramento
+                    </h3><!--dish-title-->
+
+                    <span class="dish-description">
+                        oluptatum commodi deleniti, provident a necessitatibus, sit quae aut nihil qui vel architecto rem exercitationem quas, iusto fugiat pariatur placeat animi molestiae!
+                    </span><!--dish-description-->
+
+                    <div class="dish-price">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div><!--dish-price-->
+                </div><!--dish03-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-burst"></i>
+                    </div><!--dish-heart-->
+
+                    <img src="src/images/serv.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Video monitoramento
+                    </h3><!--dish-title-->
+
+                    <span class="dish-description">
+                        oluptatum commodi deleniti, provident a necessitatibus, sit quae aut nihil qui vel architecto rem exercitationem quas, iusto fugiat pariatur placeat animi molestiae!
+                    </span><!--dish-description-->
+
+                    <div class="dish-price">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div><!--dish-price-->
+                </div><!--dish04-->
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-burst"></i>
+                    </div><!--dish-heart-->
+
+                    <img src="src/images/serv.png" class="dish-image" alt="">
+                    <h3 class="dish-title">
+                        Video monitoramento
+                    </h3><!--dish-title-->
+
+                    <span class="dish-description">
+                        oluptatum commodi deleniti, provident a necessitatibus, sit quae aut nihil qui vel architecto rem exercitationem quas, iusto fugiat pariatur placeat animi molestiae!
+                    </span><!--dish-description-->
+
+                    <div class="dish-price">
+                        <h4>Saiba mais</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div><!--dish-price-->
+                </div><!--dish05    -->
+
+            </div><!--dishes-->
+
+        </section><!--menu-->
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonials_chef"  alt="">
+
+            <div id="testimonials_content">
+               <h2 class="section-title">
+                    UM POUCO
+               </h2><!--section-title-->
+               <h3 class="section-subtitle">
+                    sobre nós
+               </h3><!--section-subtitle-->
+
+               <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/missao.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Missão
+                                <!-- <span>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </span> -->
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem deserunt fugiat vitae saepe mollitia temporibus vero veritatis iste, molestiae nihil facilis. Cupiditate sint, ea fuga accusantium illo repellendus laborum!
+                            </p>
+                        </div>
+                    </div>
+                     
+                    <div class="feedback">
+                        <img src="src/images/visao.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Visão
+                                <!-- <span>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </span> -->
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem deserunt fugiat vitae saepe mollitia temporibus vero veritatis iste, molestiae nihil facilis. Cupiditate sint, ea fuga accusantium illo repellendus laborum!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/valor.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Valor
+                                <!-- <span>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                    <i class="fa-solid fa-heart"></i>
+                                </span> -->
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem deserunt fugiat vitae saepe mollitia temporibus vero veritatis iste, molestiae nihil facilis. Cupiditate sint, ea fuga accusantium illo repellendus laborum!
+                            </p>
+                        </div>
+                    </div>
+               </div><!--feedbacks-->
+
+               <!-- <button class="btn-default">
+                    Ver mais avaliações
+               </button> -->
+
+            </div><!--testimonials_content-->
+        </section><!--testimonials-->
+
+        <section id="form">
+            <h2 id="form-title" class="section-title"> Faça </h2><!--section-title-->
+            <h3 id="form-subtitle" class="section-subtitle"> O seu Orçamento </h3><!--section-subtitle-->
+
+            <form action="">
+                <input type="text" name="" id="" placeholder="Seu nome completo" required>
+               
+                <input type="text" name="" id="" placeholder="Seu nome celular" required>
+
+                <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+
+                <div class="btn-default">
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </section> 
+        
+        <!-- <section id="form" class="section-title" >
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8tVyCyM2Bpcde5SO1R_fEHbod6V5bIswd71zXPws8Ln3btA/viewform?embedded=true" width="640" height="832" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </section> -->
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span class="copyright">
+                &copy Hexa Soluções 2025
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div><!--social-media-buttons-->
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
